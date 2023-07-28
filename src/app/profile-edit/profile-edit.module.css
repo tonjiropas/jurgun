@@ -1,0 +1,124 @@
+.profile_edit_container {
+    margin-top: 60px;
+    margin-bottom:60px;
+    padding:10px;
+}
+
+.profile_edit_title_container {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-basis:auto;
+}
+
+.profile_edit_title_left {
+    text-align:center;
+    width:20%;
+    order:1;
+}
+.profile_edit_title_center {
+    text-align:center;
+    width:60%;
+    order:2;
+}
+.profile_edit_title_center span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.profile_edit_title_right {
+    text-align:center;
+    width:20%;
+    order:3;
+}
+
+.profile_edit_picture_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:160px;
+    /* border:1px solid red; */
+}
+
+.profile_edit_picture {
+    border-radius:50%;
+    height:150px;
+    width:150px;
+    border: 1px solid hsl(0, 0%, 86%);
+}
+
+.interest_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width:100%;
+    text-align:center;
+    /* border:1px solid green; */
+}
+
+.interest_box_number {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.interest_box_word{
+    font-size: 24px;
+    color:grey;
+    line-height: 24px;
+}
+
+
+.story_container {
+    display: flex;
+    justify-content: start;
+    padding: 0 24px;
+    overflow-x: scroll;
+    position: relative;
+    margin-bottom: 44px;
+}
+
+
+
+
+
+
+
+.profile_info {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.profile_description_container h1 {
+    font-weight: 600;
+  line-height: 24px;
+}
+
+.profile_description_container span {
+    font-weight: 400;
+  line-height: 24px;
+}
+
+
+.name_container {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    font-weight: bold;
+    font-size:32px;
+}
+
+.bio_container {
+    margin-left:10%;
+    margin-right:10%;
+    border: 1px black solid;
+    
+    justify-content: left;
+    font-size:16px;
+
+    display: flex;
+    flex-direction:column;
+
+}

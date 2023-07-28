@@ -1,0 +1,10 @@
+.interest_container {
+    margin-top: 60px;
+    margin-bottom:60px;
+    padding:10px;
+}
+
+.line_break {
+    /* top right buttom left */
+    margin:20px 0px 20px 0px;
+}

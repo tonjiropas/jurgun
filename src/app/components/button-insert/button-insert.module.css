@@ -1,0 +1,15 @@
+.button_edit {
+  background: #0095f6;
+  color: white;
+  -webkit-text-fill-color: white;
+  padding:10px;
+  border-radius:4px;
+}
+  
+  .button_edit:hover {
+    background-color: darkblue;
+  }
+
+  .green {
+    background-color: green;
+  }

@@ -1,0 +1,41 @@
+.profile_container {
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+
+.profile_info {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.profile_picture_container {
+    display: flex;
+    justify-content: center;
+}
+.profile_picture {
+    border-radius:50%;
+    height:100px;
+    width:100px
+}
+
+.name_container {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    font-weight: bold;
+    font-size:32px;
+}
+
+.bio_container {
+    margin-left:10%;
+    margin-right:10%;
+    border: 1px black solid;
+    
+    justify-content: left;
+    font-size:16px;
+
+    display: flex;
+    flex-direction:column;
+
+}
